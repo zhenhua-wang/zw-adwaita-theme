@@ -130,7 +130,8 @@
        (magenta (if true-color-available-p "#dd80de" "orchid3"))         ; #cd69c9
        (pink (if true-color-available-p "#edb8ee" "plum"))               ; #dda0dd
        (violet (if true-color-available-p "#7d8ac7" "mediumpurple3"))    ; #8968cd
-       (cyan (if true-color-available-p "#7ee5ff" "mediumturquoise")))   ; #48d1cc
+       (cyan (if true-color-available-p "#7ee5ff" "mediumturquoise"))    ; #48d1cc
+       (cyan-warmer (if true-color-available-p "#48d1cc" "mediumturquoise")))
 
   (custom-theme-set-faces
    'adwaita-dark
@@ -277,7 +278,7 @@
    `(diff-refine-removed ((,class (:inherit diff-removed :bold t :underline t))))
 
    ;; dired
-   `(dired-directory ((,class (:foreground ,cyan))))
+   `(dired-directory ((,class (:foreground ,cyan-warmer))))
    `(dired-ignored ((,class (:foreground ,base-5))))
    `(dired-flagged ((,class (:foreground ,red))))
    `(dired-header ((,class (:foreground ,blue :weight bold))))
@@ -300,7 +301,7 @@
    `(diredfl-exec-priv ((,class :foreground ,red)))
    `(diredfl-executable-tag ((,class :inherit diredfl-exec-priv)))
    `(diredfl-file-name ((,class :foreground ,fg)))
-   `(diredfl-file-suffix ((,class :foreground ,cyan)))
+   `(diredfl-file-suffix ((,class :foreground ,cyan-warmer)))
    `(diredfl-flag-mark ((,class :inherit dired-marked)))
    `(diredfl-flag-mark-line ((,class :inherit dired-marked)))
    `(diredfl-ignored-file-name ((,class :inherit shadow)))

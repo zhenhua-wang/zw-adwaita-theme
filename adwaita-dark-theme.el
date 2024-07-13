@@ -867,6 +867,10 @@
    `(which-key-command-description-face ((,class (:foreground ,blue))))
    `(which-key-local-map-description-face ((,class (:foreground ,magenta))))
 
+   ;; keycast
+   `(keycast-command ((,class :inherit bold)))
+   `(keycast-key ((,class :inherit (highlight bold))))
+
    ;; yasnippet
    `(yas-field-highlight-face ((,class (:inherit match))))))
 

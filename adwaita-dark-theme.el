@@ -278,7 +278,7 @@
    `(diff-refine-removed ((,class (:inherit diff-removed :bold t :underline t))))
 
    ;; dired
-   `(dired-directory ((,class (:foreground ,cyan-warmer))))
+   `(dired-directory ((,class (:foreground ,cyan))))
    `(dired-ignored ((,class (:foreground ,base-5))))
    `(dired-flagged ((,class (:foreground ,red))))
    `(dired-header ((,class (:foreground ,blue :weight bold))))

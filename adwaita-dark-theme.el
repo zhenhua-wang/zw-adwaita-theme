@@ -191,7 +191,7 @@
    `(mode-line ((,class (:background ,base-3 :foreground ,fg :box ,(when adwaita-dark-theme-pad-mode-line `(:line-width ,mode-line-padding :color ,base-3))))))
    `(mode-line-inactive ((,class (:background ,bg-alt :foreground ,base-5 :box ,(when adwaita-dark-theme-pad-mode-line `(:line-width ,mode-line-padding :color ,bg-alt))))))
    `(mode-line-emphasis ((,class (:foreground ,blue))))
-   `(mode-line-highlight ((,class (:foreground ,fg))))
+   `(mode-line-highlight ((,class (:foreground ,fg :background ,blue))))
    `(mode-line-buffer-id ((,class (:foreground ,base-8 :weight bold))))
    `(header-line ((,class (:inherit mode-line-inactive :foreground ,base-7))))
 

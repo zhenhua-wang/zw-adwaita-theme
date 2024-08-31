@@ -452,7 +452,7 @@
 
    ;; tty menu
    `(tty-menu-enabled-face ((,class (:background ,bg-osd, fg-osd))))
-   `(tty-menu-disabled-face ((,class (:background ,bg-osd :foreground ,fg-osd))))
+   `(tty-menu-disabled-face ((,class (:background ,bg-osd :foreground ,base-3))))
    `(tty-menu-selected-face ((,class (:background ,dark-blue :weight bold))))
 
    ;; which-func

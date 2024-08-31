@@ -450,6 +450,11 @@
    `(tab-bar-tab ((,class (:background ,bg :foreground ,fg :box ,(when adwaita-dark-theme-pad-tab-bar `(:line-width ,mode-line-padding :color ,bg))))))
    `(tab-bar-tab-inactive ((,class (:background ,bg-alt :foreground ,fg-alt :box ,(when adwaita-dark-theme-pad-tab-bar `(:line-width ,mode-line-padding :color ,bg-alt))))))
 
+   ;; tty menu
+   `(tty-menu-enabled-face ((,class (:background ,bg-osd, fg-osd))))
+   `(tty-menu-disabled-face ((,class (:background ,bg-osd :foreground ,fg-osd))))
+   `(tty-menu-selected-face ((,class (:background ,dark-blue :weight bold))))
+
    ;; which-func
    `(which-func ((,class (:inherit font-lock-function-name-face))))
 
